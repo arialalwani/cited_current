@@ -1,0 +1,4 @@
+{
+  "_comment": "Correct any wrong or missing metadata here, keyed by doc_id from data/raw/manifest.json. Example below.",
+  "EXAMPLE-DOC-ID-abc123": {"issue_date": "2024-06-14", "circular_no": "HQ-13054/1/2022-EU-II-HQ", "supersedes": ["OLDER-DOC-ID-def456"]}
+}

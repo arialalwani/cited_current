@@ -1,0 +1,7 @@
+config,id,type,question,recall@1,recall@5,rr,abstained,citations,stale_cited,cause
+5. Hybrid + cross-encoder + recency (full),Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,0.0,0.0,0.0,False,SAMPLE-UIDAI-CHILD-2022#01 SAMPLE-UIDAI-FREEDOC-2025-06#01,False,Retrieval or ranking miss
+5. Hybrid + cross-encoder + recency (full),Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.125,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False,Wrong or missing date / superseded source
+5. Hybrid + cross-encoder + recency (full),Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.5,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#02,False,Table content split or misread
+5. Hybrid + cross-encoder + recency (full),Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.5,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False,Table content split or misread
+5. Hybrid + cross-encoder + recency (full),Q51,ambiguous,How do I update my address?,0.0,1.0,0.333,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False,Ambiguous question (Aadhaar vs OCI)
+5. Hybrid + cross-encoder + recency (full),Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,,Answer missing from collected documents

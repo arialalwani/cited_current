@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cited &amp; Current · Aadhaar and OCI help</title>
+<meta name="description" content="Plain-language answers on Aadhaar and OCI procedures, each linked to the official circular it comes from.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Serif:wght@600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d3a5f'/%3E%3Cpath d='M10 8h9l4 4v12H10z' fill='%23fff'/%3E%3Cpath d='M13 18l2.5 2.5L20 16' stroke='%23138a72' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#14233a; --ink-2:#3d4c63; --muted:#66748a; --line:#dfe4ec; --line-2:#c9d1dd;
+  --bg:#f6f7f9; --paper:#ffffff; --navy:#1d3a5f; --navy-2:#264b78; --navy-soft:#e8eef6;
+  --teal:#138a72; --teal-soft:#e3f4ef; --amber:#a35c00; --amber-soft:#fdf1df; --red:#b42318; --red-soft:#fdecea;
+  --focus:#f2b300; --radius:12px; --shadow:0 1px 2px rgba(20,35,58,.06),0 4px 16px rgba(20,35,58,.06);
+  --fs:16px;
+}
+*{box-sizing:border-box}
+html{font-size:var(--fs)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--navy-2)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px;top:0;background:var(--focus);color:#000;padding:8px 12px;z-index:10}
+.skip:focus{left:8px}
+
+/* notice strip */
+.notice{background:#10233c;color:#d9e2ef;font-size:.82rem}
+.notice .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;padding-top:7px;padding-bottom:7px;flex-wrap:wrap}
+.notice b{color:#fff;font-weight:600}
+.a11y{display:flex;gap:4px;align-items:center}
+.a11y span{margin-right:4px;opacity:.8}
+.a11y button{background:transparent;border:1px solid #3c5576;color:#fff;border-radius:6px;padding:1px 8px;cursor:pointer;font:inherit;font-size:.8rem}
+.a11y button[aria-pressed=true]{background:#fff;color:#10233c}
+
+/* header */
+header.site{background:var(--paper);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
+.brand svg{flex:none}
+.brand-name{font-family:"Noto Serif",Georgia,serif;font-weight:700;font-size:1.3rem;letter-spacing:-.01em;line-height:1.1}
+.brand-sub{font-size:.8rem;color:var(--muted)}
+nav.tabs{display:flex;gap:4px}
+nav.tabs button{background:none;border:0;font:inherit;font-weight:500;color:var(--ink-2);padding:9px 14px;border-radius:8px;cursor:pointer}
+nav.tabs button:hover{background:var(--navy-soft)}
+nav.tabs button[aria-current=page]{background:var(--navy);color:#fff}
+
+/* hero */
+.hero{background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);border-bottom:1px solid var(--line)}
+.hero .wrap{padding-top:40px;padding-bottom:36px}
+.hero h1{font-family:"Noto Serif",Georgia,serif;font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.2;margin:0 0 8px;letter-spacing:-.015em;max-width:24ch}
+.hero p.lede{color:var(--ink-2);margin:0 0 22px;max-width:62ch}
+.hero-top{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:40px;align-items:start}
+@media (max-width:900px){.hero-top{grid-template-columns:1fr;gap:4px}.trust{display:none}}
+.trust{list-style:none;margin:6px 0 0;padding:16px 18px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);display:grid;gap:14px}
+.trust li{display:flex;gap:12px;align-items:flex-start}
+.trust .t-ic{flex:none;width:32px;height:32px;border-radius:8px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal)}
+.trust b{display:block;font-size:.9rem}
+.trust span{font-size:.82rem;color:var(--ink-2)}
+.ask{background:var(--paper);border:1px solid var(--line-2);border-radius:14px;box-shadow:var(--shadow);padding:14px}
+.ask-row{display:flex;gap:10px}
+.ask textarea{flex:1;border:0;resize:none;font:inherit;font-size:1.05rem;color:var(--ink);padding:8px 6px;min-height:52px;background:transparent}
+.ask textarea:focus{outline:none}
+.ask:focus-within{border-color:var(--navy-2);box-shadow:0 0 0 3px rgba(38,75,120,.15)}
+.btn{background:var(--navy);color:#fff;border:0;border-radius:10px;padding:0 22px;font:inherit;font-weight:600;cursor:pointer;min-height:48px;display:inline-flex;align-items:center;gap:8px}
+.btn:hover{background:var(--navy-2)}
+.btn:disabled{opacity:.6;cursor:wait}
+.ask-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;border-top:1px solid var(--line);margin-top:10px;padding-top:10px;flex-wrap:wrap}
+.seg{display:inline-flex;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:3px}
+.seg button{border:0;background:none;font:inherit;font-size:.88rem;padding:5px 12px;border-radius:7px;cursor:pointer;color:var(--ink-2)}
+.seg button[aria-pressed=true]{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08);font-weight:600}
+.hint{font-size:.8rem;color:var(--muted)}
+
+/* topics */
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:22px}
+.topic{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;text-align:left;cursor:pointer;font:inherit;color:var(--ink);display:flex;gap:12px;align-items:flex-start;transition:border-color .15s,transform .15s}
+.topic:hover{border-color:var(--navy-2);transform:translateY(-1px)}
+.topic .ic{flex:none;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;background:var(--navy-soft);color:var(--navy)}
+.topic .ic.oci{background:var(--teal-soft);color:var(--teal)}
+.topic strong{display:block;font-size:.93rem;font-weight:600}
+.topic small{color:var(--muted);font-size:.8rem}
+
+/* results */
+main{padding:28px 0 60px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:24px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.card-h{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.card-b{padding:18px 20px}
+.qline{font-size:.85rem;color:var(--muted);margin:0}
+.qline b{color:var(--ink);font-weight:600}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:.74rem;font-weight:600;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.aadhaar{background:var(--navy-soft);color:var(--navy)}
+.pill.oci{background:var(--teal-soft);color:var(--teal)}
+.pill.both{background:#eef0f3;color:var(--ink-2)}
+.pill.current{background:var(--teal-soft);color:#0d6b58}
+.pill.superseded{background:var(--amber-soft);color:var(--amber)}
+.pill.type{background:#eef0f3;color:var(--ink-2);font-weight:500;text-transform:capitalize}
+.pill.type:first-letter{text-transform:uppercase}
+.answer{font-size:1.05rem;line-height:1.7}
+.answer p{margin:0 0 12px}
+.answer ol{margin:4px 0 12px;padding-left:22px}
+.answer li{margin:3px 0}
+.answer table{border-collapse:collapse;margin:8px 0 14px;font-size:.92rem;width:100%}
+.answer td,.answer th{border:1px solid var(--line);padding:6px 10px;text-align:left}
+.answer th{background:var(--bg);font-weight:600}
+sup.cite a{display:inline-block;min-width:20px;text-align:center;font-size:.72rem;font-weight:700;text-decoration:none;background:var(--navy-soft);color:var(--navy);border-radius:5px;padding:0 5px;margin-left:2px;line-height:1.6}
+sup.cite a:hover{background:var(--navy);color:#fff}
+.abstain svg{flex:none;margin-top:2px}
+.abstain{display:flex;gap:12px;align-items:flex-start;background:var(--amber-soft);border:1px solid #f1d5a8;border-radius:10px;padding:14px 16px;color:#6b3d00}
+.verify{display:flex;gap:10px;align-items:flex-start;margin-top:16px;padding:12px 14px;background:var(--bg);border-radius:10px;font-size:.85rem;color:var(--ink-2)}
+.feedback{display:flex;gap:8px;align-items:center;margin-top:14px;font-size:.85rem;color:var(--muted)}
+.feedback button{border:1px solid var(--line-2);background:#fff;border-radius:8px;padding:4px 12px;font:inherit;cursor:pointer}
+.feedback button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+.src{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px;scroll-margin-top:20px;transition:box-shadow .3s}
+.src.flash{box-shadow:0 0 0 3px var(--focus)}
+.src-top{display:flex;gap:10px;align-items:flex-start}
+.src-n{flex:none;width:24px;height:24px;border-radius:6px;background:var(--navy);color:#fff;font-weight:700;font-size:.78rem;display:grid;place-items:center}
+.src h4{margin:0;font-size:.92rem;line-height:1.35}
+.src .meta{font-size:.78rem;color:var(--muted);margin-top:4px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.src .sec{font-size:.8rem;color:var(--ink-2);margin:8px 0 0}
+.src a.open{font-size:.8rem;font-weight:600;text-decoration:none;display:inline-flex;gap:4px;align-items:center;margin-top:8px}
+.side h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px}
+.aside-box{padding:14px 16px;border-radius:10px;background:var(--amber-soft);border:1px solid #f1d5a8;margin-bottom:16px}
+.aside-box h3{color:var(--amber)}
+.aside-item{font-size:.83rem;padding:8px 0;border-top:1px dashed #e6c58f}
+.aside-item:first-of-type{border-top:0;padding-top:0}
+.aside-item s{color:var(--ink-2)}
+.aside-item .to{color:#0d6b58;font-weight:600}
+details.passages{margin-top:18px}
+details.passages summary{cursor:pointer;font-weight:600;font-size:.9rem;color:var(--navy-2)}
+.passage{border-left:3px solid var(--line-2);padding:6px 12px;margin:10px 0;font-size:.85rem;white-space:pre-wrap;color:var(--ink-2)}
+.passage b{color:var(--ink);display:block;white-space:normal;margin-bottom:2px}
+.skel{height:14px;border-radius:6px;background:linear-gradient(90deg,#eef1f5,#f8f9fb,#eef1f5);background-size:200% 100%;animation:sh 1.2s infinite;margin:10px 0}
+@keyframes sh{to{background-position:-200% 0}}
+.empty{text-align:center;color:var(--muted);padding:30px 10px}
+
+/* library */
+.toolbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}
+.toolbar input{border:1px solid var(--line-2);border-radius:9px;padding:9px 12px;font:inherit;min-width:260px;background:#fff}
+.doc{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:16px;padding:16px 20px;border-top:1px solid var(--line);align-items:start}
+.doc:first-child{border-top:0}
+.doc .date{font-variant-numeric:tabular-nums;font-weight:600;font-size:.9rem}
+.doc .date small{display:block;color:var(--muted);font-weight:400;font-size:.75rem}
+.doc h4{margin:0 0 4px;font-size:.98rem}
+.doc .chain{font-size:.8rem;margin-top:6px;color:var(--ink-2)}
+.doc .chain span{color:var(--amber);font-weight:600}
+.doc .chain span.ok{color:#0d6b58}
+.doc.is-old{background:#fcfcfd}
+.doc.is-old h4{color:var(--ink-2)}
+@media (max-width:640px){.doc{grid-template-columns:1fr}}
+
+/* about */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;counter-reset:s}
+.step{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;counter-increment:s}
+.step:before{content:counter(s);display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;margin-bottom:8px}
+.step b{display:block;font-size:.92rem}
+.step span{font-size:.82rem;color:var(--ink-2)}
+table.res{width:100%;border-collapse:collapse;font-size:.88rem;font-variant-numeric:tabular-nums}
+table.res th,table.res td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right}
+table.res th:first-child,table.res td:first-child{text-align:left}
+table.res th{font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:600}
+table.res tr.full td{font-weight:700;background:var(--teal-soft)}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;font-size:.88rem}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+h2.sec{font-family:"Noto Serif",Georgia,serif;font-size:1.35rem;margin:28px 0 12px}
+.banner{display:block;background:var(--amber-soft);border:1px solid #f1d5a8;color:#6b3d00;border-radius:10px;padding:10px 14px;font-size:.85rem;margin-bottom:18px}
+
+footer{border-top:1px solid var(--line);background:#fff;font-size:.82rem;color:var(--muted)}
+footer .wrap{padding-top:22px;padding-bottom:28px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}
+footer h5{margin:0 0 6px;color:var(--ink);font-size:.85rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin:3px 0}
+@media (max-width:720px){footer .wrap{grid-template-columns:1fr}}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to main content</a>
+
+<div class="notice" role="note">
+  <div class="wrap">
+    <div><b>Independent citizen-help tool</b> · not a Government of India website · always confirm on the official portal</div>
+    <div class="a11y" role="group" aria-label="Text size">
+      <span>Text size</span>
+      <button data-fs="15" aria-pressed="false" aria-label="Smaller text">A-</button>
+      <button data-fs="16" aria-pressed="true" aria-label="Normal text">A</button>
+      <button data-fs="18" aria-pressed="false" aria-label="Larger text">A+</button>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#" data-go="ask" aria-label="Cited and Current home">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+        <rect width="40" height="40" rx="10" fill="#1d3a5f"/>
+        <path d="M12 9h12l5 5v17H12z" fill="#fff"/>
+        <path d="M24 9v5h5" fill="#c9d6e6"/>
+        <path d="M16 21l3.2 3.2L25 18.5" stroke="#138a72" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>
+        <span class="brand-name">Cited &amp; Current</span><br>
+        <span class="brand-sub">Aadhaar and OCI procedures, from the source</span>
+      </span>
+    </a>
+    <nav class="tabs" aria-label="Main">
+      <button data-go="ask" aria-current="page">Ask a question</button>
+      <button data-go="library">Document library</button>
+      <button data-go="about">How it works</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================== ASK ============================== -->
+<section id="view-ask">
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+      <div>
+      <h1>Get answers on Aadhaar and OCI updates that you can check yourself</h1>
+      <p class="lede">Every answer comes only from published circulars, FAQs and forms, and shows which document it relied on. When a rule has been changed, the newer circular is used.</p>
+      </div>
+      <ul class="trust" aria-label="Why you can rely on these answers">
+        <li><span class="t-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 13l2 2 4-4"/></svg></span><div><b>Sourced</b><span>Each statement links to the circular, form or FAQ it came from.</span></div></li>
+        <li><span class="t-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Current</b><span>Replaced circulars are set aside, and you can see which ones.</span></div></li>
+        <li><span class="t-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></span><div><b>Honest</b><span>If the documents do not cover your question, it says so instead of guessing.</span></div></li>
+      </ul>
+      </div>
+      <form class="ask" id="askForm" autocomplete="off">
+        <label for="q" class="sr">Your question</label>
+        <div class="ask-row">
+          <textarea id="q" rows="1" maxlength="500" placeholder="e.g. I got a new passport. Do I need a new OCI card?"></textarea>
+          <button class="btn" id="askBtn" type="submit">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+            Ask
+          </button>
+        </div>
+        <div class="ask-foot">
+          <div class="seg" role="group" aria-label="Which service">
+            <button type="button" data-svc="auto" aria-pressed="true">Detect automatically</button>
+            <button type="button" data-svc="aadhaar" aria-pressed="false">Aadhaar</button>
+            <button type="button" data-svc="oci" aria-pressed="false">OCI</button>
+          </div>
+          <span class="hint">Press Enter to ask · Do not type your Aadhaar or passport number</span>
+        </div>
+      </form>
+
+      <div class="topics" id="topics" aria-label="Common questions"></div>
+    </div>
+  </div>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <div id="result" aria-live="polite"></div>
+  </main>
+</section>
+
+<!-- ============================== LIBRARY ============================== -->
+<section id="view-library" hidden>
+  <main class="wrap">
+    <h2 class="sec" style="margin-top:8px">Document library</h2>
+    <p style="color:var(--ink-2);margin-top:-4px;max-width:70ch">Every document the assistant can cite, with its issue date. Older circulars that have been replaced stay listed for reference, but answers use the circular that replaced them.</p>
+    <div id="libBanner"></div>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Filter by service">
+        <button data-lib="all" aria-pressed="true">All</button>
+        <button data-lib="aadhaar" aria-pressed="false">Aadhaar</button>
+        <button data-lib="oci" aria-pressed="false">OCI</button>
+        <button data-lib="superseded" aria-pressed="false">Replaced only</button>
+      </div>
+      <label class="sr" for="libSearch">Search documents</label>
+      <input id="libSearch" type="search" placeholder="Search titles or circular numbers">
+    </div>
+    <div class="card" id="libList"><div class="card-b"><div class="skel"></div><div class="skel"></div></div></div>
+  </main>
+</section>
+
+<!-- ============================== ABOUT ============================== -->
+<section id="view-about" hidden>
+  <main class="wrap">
+    <h2 class="sec" style="margin-top:8px">How it works</h2>
+    <p style="color:var(--ink-2);max-width:70ch;margin-top:-4px">A general chatbot may state a rule with no source, or repeat one that has since changed. This assistant searches a collection of official documents, puts newer circulars ahead of the ones they replace, and only answers from what it found.</p>
+    <div class="steps">
+      <div class="step"><b>Collect</b><span>FAQs, circulars, forms and fee notices from UIDAI, MHA, MEA and the OCI portal, with issue dates.</span></div>
+      <div class="step"><b>Split by structure</b><span>Tables and step-by-step procedures are kept whole so lists are never cut in half.</span></div>
+      <div class="step"><b>Search two ways</b><span>Keyword search (BM25) and meaning-based search (BGE embeddings), merged with rank fusion.</span></div>
+      <div class="step"><b>Rerank for recency</b><span>A cross-encoder rescores results; replaced circulars are removed and newer ones on the same topic are ranked higher.</span></div>
+      <div class="step"><b>Answer with citations</b><span>Each sentence is tied to its source. If nothing relevant is found, it says so.</span></div>
+    </div>
+    <h2 class="sec">Evaluation</h2>
+    <div class="card"><div class="card-b" id="aboutResults"><div class="skel"></div></div></div>
+    <h2 class="sec">System details</h2>
+    <div class="card"><div class="card-b"><dl class="kv" id="aboutKv"></dl></div></div>
+    <h2 class="sec">Project team</h2>
+    <p style="color:var(--ink-2)">AI mini-project, Mukesh Patel School of Technology Management &amp; Engineering, NMIMS: Aria Lalwani (C066), Mahi Shah (C086), Vidisha Ajmera (C084).</p>
+  </main>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h5>About this service</h5>
+      An independent assistant built as an academic project. It is not affiliated with UIDAI, the Ministry of Home Affairs or the Ministry of External Affairs. It summarises published documents and is not legal advice.
+    </div>
+    <div>
+      <h5>Official portals</h5>
+      <ul>
+        <li><a href="https://uidai.gov.in" target="_blank" rel="noopener">uidai.gov.in</a></li>
+        <li><a href="https://myaadhaar.uidai.gov.in" target="_blank" rel="noopener">myaadhaar.uidai.gov.in</a></li>
+        <li><a href="https://ociservices.gov.in" target="_blank" rel="noopener">ociservices.gov.in</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Help lines</h5>
+      <ul>
+        <li>UIDAI: 1947</li>
+        <li>Your nearest Indian Mission for OCI queries abroad</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = iso => { if (!iso) return "Date not known"; const d = new Date(iso + "T00:00:00");
+  return d.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"}); };
+const SVC = {aadhaar:"Aadhaar", oci:"OCI"};
+const TYPE = t => ({faq:"FAQ"}[t] || t);
+let service = "auto";
+
+/* ---------- text size ---------- */
+function setFs(px){ document.documentElement.style.setProperty("--fs", px + "px");
+  $$(".a11y button").forEach(b => b.setAttribute("aria-pressed", b.dataset.fs == px));
+  try { localStorage.setItem("cc-fs", px); } catch(e){} }
+$$(".a11y button").forEach(b => b.onclick = () => setFs(b.dataset.fs));
+try { const f = localStorage.getItem("cc-fs"); if (f) setFs(f); } catch(e){}
+
+/* ---------- navigation ---------- */
+function go(view){
+  ["ask","library","about"].forEach(v => $("#view-" + v).hidden = v !== view);
+  $$("nav.tabs button").forEach(b => b.toggleAttribute("aria-current", b.dataset.go === view) || b.removeAttribute("aria-current"));
+  $$("nav.tabs button").forEach(b => b.dataset.go === view ? b.setAttribute("aria-current","page") : b.removeAttribute("aria-current"));
+  if (view === "library") loadLibrary();
+  if (view === "about") loadAbout();
+  history.replaceState(null, "", view === "ask" ? location.pathname : "#" + view);
+  window.scrollTo({top:0});
+}
+$$("[data-go]").forEach(el => el.addEventListener("click", e => { e.preventDefault(); go(el.dataset.go); }));
+
+/* ---------- topics ---------- */
+const ICONS = {
+  home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  rupee:'<path d="M7 4h10M7 8h10M7 4c6 0 6 8 0 8l8 8"/>',
+  doc:'<path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7"/>',
+  pass:'<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 16h6"/>',
+  search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
+  cam:'<rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 7l2-3h4l2 3"/>',
+  ring:'<circle cx="12" cy="14" r="6"/><path d="M9 4h6l-3 4z"/>'
+};
+const TOPICS = [
+  {svc:"aadhaar", ic:"home",  t:"Update address",           s:"Online steps and accepted proofs", q:"What are the steps to update my Aadhaar address online with a proof of address?"},
+  {svc:"aadhaar", ic:"clock", t:"Free document update",     s:"Current deadline",                 q:"Till when is the online document update in Aadhaar free of charge?"},
+  {svc:"aadhaar", ic:"rupee", t:"Aadhaar fees",             s:"Biometric and demographic",       q:"What is the fee for a biometric update in Aadhaar?"},
+  {svc:"aadhaar", ic:"search",t:"Lost Aadhaar",             s:"Retrieve your number",             q:"I lost my Aadhaar card and do not remember the number. How do I get it back?"},
+  {svc:"oci",     ic:"pass",  t:"New passport, OCI holder", s:"Re-issue or upload?",              q:"I am 25 and got a new passport. Do I need to re-issue my OCI card?"},
+  {svc:"oci",     ic:"cam",   t:"OCI photo rules",          s:"Size, format, background",         q:"What size should my photograph be for the OCI application?"},
+  {svc:"oci",     ic:"doc",   t:"Lost OCI card",            s:"Steps and documents",              q:"I lost my OCI card. What are the steps to get a new one?"},
+  {svc:"oci",     ic:"ring",  t:"Name change after marriage",s:"What to submit",                 q:"I changed my name after marriage. What do I need to update my OCI card?"},
+];
+$("#topics").innerHTML = TOPICS.map((t,i) => `
+  <button class="topic" data-i="${i}" type="button">
+    <span class="ic ${t.svc}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[t.ic]}</svg></span>
+    <span><strong>${esc(t.t)}</strong><small>${SVC[t.svc]} · ${esc(t.s)}</small></span>
+  </button>`).join("");
+$$(".topic").forEach(b => b.onclick = () => { const t = TOPICS[b.dataset.i]; $("#q").value = t.q; autoGrow(); ask(); });
+
+/* ---------- ask form ---------- */
+$$(".seg [data-svc]").forEach(b => b.onclick = () => { service = b.dataset.svc;
+  $$(".seg [data-svc]").forEach(x => x.setAttribute("aria-pressed", x === b)); });
+const ta = $("#q");
+function autoGrow(){ ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight, 160) + "px"; }
+ta.addEventListener("input", autoGrow);
+ta.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask(); } });
+$("#askForm").addEventListener("submit", e => { e.preventDefault(); ask(); });
+
+async function ask(){
+  const q = ta.value.trim();
+  if (q.length < 3) { ta.focus(); return; }
+  $("#askBtn").disabled = true;
+  $("#result").innerHTML = `<div class="card"><div class="card-b"><p class="qline">Searching official documents…</p><div class="skel" style="width:92%"></div><div class="skel" style="width:80%"></div><div class="skel" style="width:60%"></div></div></div>`;
+  $("#main").scrollIntoView({behavior:"smooth", block:"start"});
+  try {
+    const r = await fetch("/api/ask", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({question:q, service})});
+    if (!r.ok) throw new Error((await r.json()).detail || r.statusText);
+    render(await r.json());
+  } catch (err) {
+    $("#result").innerHTML = `<div class="card"><div class="card-b"><div class="abstain">Something went wrong while answering: ${esc(err.message)}. Please try again.</div></div></div>`;
+  } finally { $("#askBtn").disabled = false; }
+}
+
+/* ---------- answer rendering ---------- */
+function citeLinks(html){
+  return html.replace(/\[(\d+)\]/g, (_, n) => `<sup class="cite"><a href="#src-${n}" data-n="${n}" aria-label="Source ${n}">${n}</a></sup>`);
+}
+function formatAnswer(text){
+  // Split into paragraphs; keep numbered steps as a list and "Section: Col: val; Col: val" rows readable.
+  const lines = esc(text).split(/\n+/);
+  let html = "", list = [];
+  const flush = () => { if (list.length) { html += "<ol>" + list.map(l => `<li>${l}</li>`).join("") + "</ol>"; list = []; } };
+  for (const raw of lines) {
+    const l = raw.trim(); if (!l) continue;
+    const m = l.match(/^\d+[.)]\s+(.*)/);
+    if (m) { list.push(m[1]); continue; }
+    flush();
+    // sentence-level split so each cited statement reads as its own line
+    const parts = l.split(/(?<=\]\s)(?=[A-Z])/);
+    html += parts.map(p => `<p>${p.trim()}</p>`).join("");
+  }
+  flush();
+  return citeLinks(html);
+}
+
+function render(d){
+  const svc = d.service ? `<span class="pill ${d.service}">${SVC[d.service]}</span>` : `<span class="pill both">Aadhaar and OCI</span>`;
+  const answerHtml = d.abstained
+    ? `<div class="abstain"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg>
+       <div><b>No answer found in the collected documents.</b><br>This assistant only answers from the official documents in its library, so it will not guess. Try rephrasing, choose Aadhaar or OCI above, or check the official portal.</div></div>`
+    : `<div class="answer">${formatAnswer(d.answer)}</div>`;
+  const refs = d.references.map(r => `
+    <div class="src" id="src-${r.n}">
+      <div class="src-top"><span class="src-n">${r.n}</span>
+        <div><h4>${esc(r.title)}</h4>
+          <div class="meta"><span class="pill ${r.status}">${r.status === "current" ? "In force" : "Replaced"}</span>
+            <span class="pill type">${esc(TYPE(r.doc_type))}</span><span>${esc(r.source)}</span></div>
+          <div class="meta">${r.circular_no ? "No. " + esc(r.circular_no) + " · " : ""}Issued ${fmtDate(r.issue_date)}</div>
+          ${r.status === "superseded" && r.replaced_by ? `<div class="meta" style="color:var(--amber)">Replaced by: ${esc(r.replaced_by)}</div>` : ""}
+          <p class="sec">Section: ${esc(r.section)}</p>
+          <a class="open" href="${esc(r.url)}" target="_blank" rel="noopener">Open official source
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+        </div></div>
+    </div>`).join("");
+  const aside = d.set_aside.length ? `
+    <div class="aside-box">
+      <h3>Older rules set aside</h3>
+      ${d.set_aside.map(s => `<div class="aside-item"><s>${esc(s.title)}</s><br><span>${fmtDate(s.issue_date)}</span>
+        ${s.replaced_by ? `<br>→ <span class="to">${esc(s.replaced_by.title)}</span> (${fmtDate(s.replaced_by.issue_date)})` : ""}</div>`).join("")}
+    </div>` : "";
+  const passages = d.passages.map(p => `<div class="passage"><b>${esc(p.title)} — ${esc(p.section)} · ${fmtDate(p.issue_date)}</b>${esc(p.text)}</div>`).join("");
+
+  $("#result").innerHTML = `
+    <div class="grid">
+      <article class="card">
+        <div class="card-h"><p class="qline">You asked: <b>${esc(d.question)}</b></p>${svc}</div>
+        <div class="card-b">
+          ${answerHtml}
+          <div class="verify"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+            <span>Numbers in boxes link to the document each statement comes from. Rules and fees change; confirm on the official portal before paying or applying.</span></div>
+          <div class="feedback">Was this helpful?
+            <button type="button" aria-pressed="false" data-fb="yes">Yes</button>
+            <button type="button" aria-pressed="false" data-fb="no">No</button>
+            <span id="fbThanks" hidden>Thank you for the feedback.</span></div>
+          <details class="passages"><summary>Show the passages the answer was drawn from (${d.passages.length})</summary>${passages}</details>
+        </div>
+      </article>
+      <aside class="side">
+        ${aside}
+        <h3>Sources</h3>
+        ${refs || '<p class="hint">No sources cited.</p>'}
+      </aside>
+    </div>`;
+  $$("sup.cite a").forEach(a => a.onclick = e => { e.preventDefault();
+    const el = $("#src-" + a.dataset.n); el.scrollIntoView({behavior:"smooth", block:"center"});
+    el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1400); });
+  $$("[data-fb]").forEach(b => b.onclick = () => { $$("[data-fb]").forEach(x => x.setAttribute("aria-pressed", x === b)); $("#fbThanks").hidden = false; });
+}
+
+/* ---------- library ---------- */
+let LIB = null, libFilter = "all";
+async function loadLibrary(){
+  if (!LIB) { LIB = await (await fetch("/api/documents")).json(); }
+  $("#libBanner").innerHTML = LIB.corpus.includes("sample")
+    ? `<div class="banner"><b>Demo library.</b>&nbsp;These are sample documents prepared for testing. Real circulars are added by running the collection step.</div>` : "";
+  drawLibrary();
+}
+function drawLibrary(){
+  const term = $("#libSearch").value.toLowerCase();
+  const byId = Object.fromEntries(LIB.documents.map(d => [d.doc_id, d]));
+  const docs = LIB.documents
+    .filter(d => libFilter === "all" || d.service === libFilter || (libFilter === "superseded" && d.status === "superseded"))
+    .filter(d => !term || (d.title + " " + d.circular_no + " " + d.source).toLowerCase().includes(term))
+    .sort((a, b) => (b.issue_date || "").localeCompare(a.issue_date || ""));
+  $("#libList").innerHTML = docs.length ? docs.map(d => `
+    <div class="doc ${d.status === "superseded" ? "is-old" : ""}">
+      <div class="date">${fmtDate(d.issue_date)}<small>issue date</small></div>
+      <div>
+        <h4>${esc(d.title)}</h4>
+        <div class="meta" style="font-size:.8rem;color:var(--muted);display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+          <span class="pill ${d.service}">${SVC[d.service] || d.service}</span><span class="pill type">${esc(TYPE(d.doc_type))}</span>
+          <span>${esc(d.source)}</span>${d.circular_no ? `<span>· No. ${esc(d.circular_no)}</span>` : ""}</div>
+        ${d.superseded_by.length ? `<div class="chain"><span>Replaced by</span> ${d.superseded_by.map(x => esc(byId[x]?.title || x) + " (" + fmtDate(byId[x]?.issue_date) + ")").join(", ")}</div>` : ""}
+        ${d.supersedes.length ? `<div class="chain"><span class="ok">Replaces</span> ${d.supersedes.map(x => esc(byId[x]?.title || x) + " (" + fmtDate(byId[x]?.issue_date) + ")").join(", ")}</div>` : ""}
+        <div class="chain" style="color:var(--muted)">Covers: ${d.sections.map(esc).join(" · ")}</div>
+      </div>
+      <div style="text-align:right"><span class="pill ${d.status}">${d.status === "current" ? "In force" : "Replaced"}</span><br>
+        <a class="open" style="font-size:.8rem;display:inline-block;margin-top:8px" href="${esc(d.url)}" target="_blank" rel="noopener">Source ↗</a></div>
+    </div>`).join("") : `<div class="empty">No documents match.</div>`;
+}
+$$("[data-lib]").forEach(b => b.onclick = () => { libFilter = b.dataset.lib;
+  $$("[data-lib]").forEach(x => x.setAttribute("aria-pressed", x === b)); drawLibrary(); });
+$("#libSearch").addEventListener("input", () => LIB && drawLibrary());
+
+/* ---------- about ---------- */
+let ABOUT = null;
+async function loadAbout(){
+  if (!ABOUT) ABOUT = await (await fetch("/api/about")).json();
+  const a = ABOUT, cols = ["Recall@1","Recall@5","MRR","Citation accuracy","Stale-source rate"];
+  $("#aboutResults").innerHTML = a.results.length ? `
+    ${a.is_sample ? `<div class="banner">Measured on the sample corpus with ${esc(a.run_meta.embedding || "")} and ${esc(a.run_meta.cross_encoder || "")}. Re-run <code>python -m src.evaluate</code> after building the real corpus.</div>` : ""}
+    <div style="overflow-x:auto"><table class="res"><thead><tr><th>Configuration</th>${cols.map(c => `<th>${c}</th>`).join("")}</tr></thead>
+    <tbody>${a.results.map((r,i) => `<tr class="${i === a.results.length - 1 ? "full" : ""}"><td>${esc(r.Configuration)}</td>${cols.map(c => `<td>${(+r[c]).toFixed(3)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <p class="hint" style="margin-top:10px">Held-out questions: ${a.run_meta.n_test ?? "–"} · Recency weight λ tuned on ${a.run_meta.n_dev ?? "–"} development questions. Stale-source rate: share of answers citing a replaced circular (lower is better).</p>`
+    : `<p class="hint">No evaluation has been run yet. Run <code>python -m src.evaluate</code>.</p>`;
+  $("#aboutKv").innerHTML = [
+    ["Document collection", `${a.n_documents} documents, ${a.n_chunks} passages (${esc(a.corpus)})`],
+    ["Embedding model", esc(a.backends.embedding)], ["Cross-encoder", esc(a.backends.cross_encoder)],
+    ["Answer generator", esc(a.generator)], ["Recency weight λ", a.lambda],
+  ].map(([k,v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
+}
+
+/* initial view from hash */
+if (["#library","#about"].includes(location.hash)) go(location.hash.slice(1));
+</script>
+</body>
+</html>

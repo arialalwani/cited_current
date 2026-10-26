@@ -1,0 +1,9 @@
+[
+  {"url": "https://uidai.gov.in/en/contact-support/have-any-question/1018-faqs/aadhaar-online-services/update-aadhaar.html", "service": "aadhaar", "source": "UIDAI", "doc_type": "faq", "follow_pdfs": false},
+  {"url": "https://uidai.gov.in/en/my-aadhaar/about-your-aadhaar/updating-data-on-aadhaar.html", "service": "aadhaar", "source": "UIDAI", "doc_type": "faq", "follow_pdfs": true, "keywords": ["update", "document", "fee", "charges"]},
+  {"url": "https://uidai.gov.in/en/legal-framework/circulars.html", "service": "aadhaar", "source": "UIDAI", "doc_type": "circular", "follow_pdfs": true, "keywords": ["update", "document", "fee", "charges", "enrolment"], "max_docs": 30},
+  {"url": "https://uidai.gov.in/en/media-resources/media/press-releases.html", "service": "aadhaar", "source": "UIDAI", "doc_type": "notification", "follow_pdfs": true, "keywords": ["free", "update", "document"], "max_docs": 20},
+  {"url": "https://ociservices.gov.in/", "service": "oci", "source": "OCI Services Portal", "doc_type": "faq", "follow_pdfs": true, "keywords": ["oci", "re-issue", "reissue", "passport", "fee", "photo", "faq", "instruction"]},
+  {"url": "https://www.mha.gov.in/en/division_of_mha/foreigners-division/overseas-citizenship-of-india-oci-cardholder", "service": "oci", "source": "Ministry of Home Affairs", "doc_type": "circular", "follow_pdfs": true, "keywords": ["oci"], "max_docs": 25},
+  {"url": "https://www.mea.gov.in/overseas-citizen-of-india-oci-scheme.htm", "service": "oci", "source": "Ministry of External Affairs", "doc_type": "faq", "follow_pdfs": true, "keywords": ["oci"]}
+]

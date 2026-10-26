@@ -1,0 +1,181 @@
+config,id,type,question,recall@1,recall@5,rr,abstained,citations,stale_cited
+1. BM25 only,Q02,prose,Can I change my name in Aadhaar online or do I have to visit a centre?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+1. BM25 only,Q03,prose,How many times can I change my name in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#03 SAMPLE-UIDAI-FAQ-DEMO-2024#02,False
+1. BM25 only,Q05,prose,How long does an Aadhaar update request take to process?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#04,False
+1. BM25 only,Q06,prose,How can I track the status of my Aadhaar update?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+1. BM25 only,Q08,table,Is a PAN card valid proof of identity for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#01,False
+1. BM25 only,Q09,table,Can I use my class 10 marksheet as proof of date of birth for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#03,False
+1. BM25 only,Q11,procedure,What are the steps to update my Aadhaar address online with a proof of address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+1. BM25 only,Q12,prose,Why was my Aadhaar address update request rejected?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+1. BM25 only,Q14,procedure,How many days does the head of family have to approve an Aadhaar address request?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02 SAMPLE-UIDAI-HOF-2024-01#01,False
+1. BM25 only,Q15,procedure,What are the steps for a head of family based address update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02,False
+1. BM25 only,Q17,superseded,What is the last date for free Aadhaar document update on myAadhaar?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2023-12#01 SAMPLE-UIDAI-FREEDOC-2024-03#01,True
+1. BM25 only,Q18,superseded,Is updating proof of identity and address in Aadhaar online still free?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2024-03#01 SAMPLE-UIDAI-FREEDOC-2023-12#01,True
+1. BM25 only,Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2024-03#02 SAMPLE-UIDAI-FREEDOC-2023-12#02,True
+1. BM25 only,Q21,superseded,What is the fee for a biometric update in Aadhaar?,0.0,1.0,0.5,False,SAMPLE-UIDAI-FEES-2020#01,True
+1. BM25 only,Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.111,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False
+1. BM25 only,Q24,table,How much does an Aadhaar PVC card cost?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+1. BM25 only,Q26,procedure,Is the e-Aadhaar valid like the original letter?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#01,False
+1. BM25 only,Q27,prose,Can I order an Aadhaar PVC card if my mobile number is not registered?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+1. BM25 only,Q29,prose,Do I need any document to change my email in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-MOBILE-2023#01,False
+1. BM25 only,Q30,procedure,How do I lock my Aadhaar biometrics?,1.0,1.0,1.0,False,SAMPLE-UIDAI-BIOLOCK-2021#01 SAMPLE-UIDAI-CHILD-2022#01,False
+1. BM25 only,Q32,prose,At what ages must a child do a mandatory biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#02,False
+1. BM25 only,Q33,prose,Are biometrics taken for Baal Aadhaar of a child below five?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#01,False
+1. BM25 only,Q35,prose,Can the foreign spouse of an Indian citizen get OCI?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#01,False
+1. BM25 only,Q36,prose,Do OCI cardholders need to register with the FRRO?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#02,False
+1. BM25 only,Q38,superseded,Is OCI re-issue required when I renew my passport after the age of 50?,0.0,1.0,0.5,False,SAMPLE-MHA-OCI-REISSUE-2019#01 SAMPLE-MHA-OCI-REISSUE-2021#01,True
+1. BM25 only,Q39,superseded,When must an OCI card be re-issued after getting a new passport?,0.0,1.0,0.5,False,SAMPLE-MHA-OCI-REISSUE-2021#02 SAMPLE-MHA-OCI-REISSUE-2021#01,False
+1. BM25 only,Q41,procedure,What are the steps to update new passport details on my OCI registration?,1.0,1.0,1.0,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+1. BM25 only,Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.25,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#02,False
+1. BM25 only,Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.5,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False
+1. BM25 only,Q45,table,What size should my photograph be for the OCI application?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01,False
+1. BM25 only,Q47,procedure,I lost my OCI card. What are the steps to get a new one?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+1. BM25 only,Q48,table,Which documents are needed to replace a damaged OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#02,False
+1. BM25 only,Q50,prose,How do I update my address on my OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-PARTICULARS-2020#03 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+1. BM25 only,Q51,ambiguous,How do I update my address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01 SAMPLE-UIDAI-HOF-2024-01#02,False
+1. BM25 only,Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,
+1. BM25 only,Q54,unanswerable,What is the tatkal fee for an Indian passport?,,,,True,,
+2. Dense retrieval only,Q02,prose,Can I change my name in Aadhaar online or do I have to visit a centre?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+2. Dense retrieval only,Q03,prose,How many times can I change my name in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#03 SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+2. Dense retrieval only,Q05,prose,How long does an Aadhaar update request take to process?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#04,False
+2. Dense retrieval only,Q06,prose,How can I track the status of my Aadhaar update?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+2. Dense retrieval only,Q08,table,Is a PAN card valid proof of identity for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#01,False
+2. Dense retrieval only,Q09,table,Can I use my class 10 marksheet as proof of date of birth for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#03,False
+2. Dense retrieval only,Q11,procedure,What are the steps to update my Aadhaar address online with a proof of address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+2. Dense retrieval only,Q12,prose,Why was my Aadhaar address update request rejected?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+2. Dense retrieval only,Q14,procedure,How many days does the head of family have to approve an Aadhaar address request?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02 SAMPLE-UIDAI-HOF-2024-01#01,False
+2. Dense retrieval only,Q15,procedure,What are the steps for a head of family based address update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02,False
+2. Dense retrieval only,Q17,superseded,What is the last date for free Aadhaar document update on myAadhaar?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2023-12#01 SAMPLE-UIDAI-FREEDOC-2024-03#01,True
+2. Dense retrieval only,Q18,superseded,Is updating proof of identity and address in Aadhaar online still free?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2023-12#01 SAMPLE-UIDAI-FREEDOC-2024-03#01,True
+2. Dense retrieval only,Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2024-03#02 SAMPLE-UIDAI-FREEDOC-2023-12#02,True
+2. Dense retrieval only,Q21,superseded,What is the fee for a biometric update in Aadhaar?,0.0,1.0,0.333,False,SAMPLE-UIDAI-FEES-2020#01,True
+2. Dense retrieval only,Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.111,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False
+2. Dense retrieval only,Q24,table,How much does an Aadhaar PVC card cost?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+2. Dense retrieval only,Q26,procedure,Is the e-Aadhaar valid like the original letter?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#01,False
+2. Dense retrieval only,Q27,prose,Can I order an Aadhaar PVC card if my mobile number is not registered?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+2. Dense retrieval only,Q29,prose,Do I need any document to change my email in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-MOBILE-2023#01,False
+2. Dense retrieval only,Q30,procedure,How do I lock my Aadhaar biometrics?,1.0,1.0,1.0,False,SAMPLE-UIDAI-BIOLOCK-2021#01 SAMPLE-UIDAI-CHILD-2022#01,False
+2. Dense retrieval only,Q32,prose,At what ages must a child do a mandatory biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#02,False
+2. Dense retrieval only,Q33,prose,Are biometrics taken for Baal Aadhaar of a child below five?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#01,False
+2. Dense retrieval only,Q35,prose,Can the foreign spouse of an Indian citizen get OCI?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#01,False
+2. Dense retrieval only,Q36,prose,Do OCI cardholders need to register with the FRRO?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#02,False
+2. Dense retrieval only,Q38,superseded,Is OCI re-issue required when I renew my passport after the age of 50?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-REISSUE-2021#01 SAMPLE-MHA-OCI-REISSUE-2019#01,True
+2. Dense retrieval only,Q39,superseded,When must an OCI card be re-issued after getting a new passport?,0.0,1.0,0.5,False,SAMPLE-MHA-OCI-REISSUE-2021#02 SAMPLE-MHA-OCI-REISSUE-2019#01,True
+2. Dense retrieval only,Q41,procedure,What are the steps to update new passport details on my OCI registration?,1.0,1.0,1.0,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+2. Dense retrieval only,Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.5,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#02 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+2. Dense retrieval only,Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.333,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False
+2. Dense retrieval only,Q45,table,What size should my photograph be for the OCI application?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01,False
+2. Dense retrieval only,Q47,procedure,I lost my OCI card. What are the steps to get a new one?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+2. Dense retrieval only,Q48,table,Which documents are needed to replace a damaged OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#02,False
+2. Dense retrieval only,Q50,prose,How do I update my address on my OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-PARTICULARS-2020#03 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+2. Dense retrieval only,Q51,ambiguous,How do I update my address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01 SAMPLE-UIDAI-HOF-2024-01#01,False
+2. Dense retrieval only,Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,
+2. Dense retrieval only,Q54,unanswerable,What is the tatkal fee for an Indian passport?,,,,True,,
+"3. Hybrid (BM25 + dense, RRF)",Q02,prose,Can I change my name in Aadhaar online or do I have to visit a centre?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q03,prose,How many times can I change my name in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#03 SAMPLE-UIDAI-FEES-2020#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q05,prose,How long does an Aadhaar update request take to process?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#04,False
+"3. Hybrid (BM25 + dense, RRF)",Q06,prose,How can I track the status of my Aadhaar update?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q08,table,Is a PAN card valid proof of identity for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q09,table,Can I use my class 10 marksheet as proof of date of birth for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#03,False
+"3. Hybrid (BM25 + dense, RRF)",Q11,procedure,What are the steps to update my Aadhaar address online with a proof of address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q12,prose,Why was my Aadhaar address update request rejected?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q14,procedure,How many days does the head of family have to approve an Aadhaar address request?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02 SAMPLE-UIDAI-HOF-2024-01#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q15,procedure,What are the steps for a head of family based address update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q17,superseded,What is the last date for free Aadhaar document update on myAadhaar?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2023-12#01 SAMPLE-UIDAI-FREEDOC-2024-03#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q18,superseded,Is updating proof of identity and address in Aadhaar online still free?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2024-03#01 SAMPLE-UIDAI-FREEDOC-2023-12#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2024-03#02 SAMPLE-UIDAI-FREEDOC-2023-12#02,True
+"3. Hybrid (BM25 + dense, RRF)",Q21,superseded,What is the fee for a biometric update in Aadhaar?,0.0,1.0,0.5,False,SAMPLE-UIDAI-FEES-2020#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.111,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q24,table,How much does an Aadhaar PVC card cost?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q26,procedure,Is the e-Aadhaar valid like the original letter?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q27,prose,Can I order an Aadhaar PVC card if my mobile number is not registered?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q29,prose,Do I need any document to change my email in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-MOBILE-2023#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q30,procedure,How do I lock my Aadhaar biometrics?,1.0,1.0,1.0,False,SAMPLE-UIDAI-BIOLOCK-2021#01 SAMPLE-UIDAI-CHILD-2022#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q32,prose,At what ages must a child do a mandatory biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q33,prose,Are biometrics taken for Baal Aadhaar of a child below five?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q35,prose,Can the foreign spouse of an Indian citizen get OCI?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q36,prose,Do OCI cardholders need to register with the FRRO?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q38,superseded,Is OCI re-issue required when I renew my passport after the age of 50?,0.0,1.0,0.5,False,SAMPLE-MHA-OCI-REISSUE-2019#01 SAMPLE-MHA-OCI-REISSUE-2021#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q39,superseded,When must an OCI card be re-issued after getting a new passport?,0.0,1.0,0.333,False,SAMPLE-MHA-OCI-REISSUE-2021#02 SAMPLE-MHA-OCI-REISSUE-2019#01,True
+"3. Hybrid (BM25 + dense, RRF)",Q41,procedure,What are the steps to update new passport details on my OCI registration?,1.0,1.0,1.0,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.333,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.5,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q45,table,What size should my photograph be for the OCI application?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q47,procedure,I lost my OCI card. What are the steps to get a new one?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q48,table,Which documents are needed to replace a damaged OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q50,prose,How do I update my address on my OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-PARTICULARS-2020#03 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+"3. Hybrid (BM25 + dense, RRF)",Q51,ambiguous,How do I update my address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01 SAMPLE-UIDAI-HOF-2024-01#02,False
+"3. Hybrid (BM25 + dense, RRF)",Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,
+"3. Hybrid (BM25 + dense, RRF)",Q54,unanswerable,What is the tatkal fee for an Indian passport?,,,,True,,
+4. Hybrid + cross-encoder,Q02,prose,Can I change my name in Aadhaar online or do I have to visit a centre?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+4. Hybrid + cross-encoder,Q03,prose,How many times can I change my name in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#03 SAMPLE-UIDAI-FAQ-DEMO-2024#02,False
+4. Hybrid + cross-encoder,Q05,prose,How long does an Aadhaar update request take to process?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#04,False
+4. Hybrid + cross-encoder,Q06,prose,How can I track the status of my Aadhaar update?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+4. Hybrid + cross-encoder,Q08,table,Is a PAN card valid proof of identity for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#01,False
+4. Hybrid + cross-encoder,Q09,table,Can I use my class 10 marksheet as proof of date of birth for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#03,False
+4. Hybrid + cross-encoder,Q11,procedure,What are the steps to update my Aadhaar address online with a proof of address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+4. Hybrid + cross-encoder,Q12,prose,Why was my Aadhaar address update request rejected?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+4. Hybrid + cross-encoder,Q14,procedure,How many days does the head of family have to approve an Aadhaar address request?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02 SAMPLE-UIDAI-HOF-2024-01#01,False
+4. Hybrid + cross-encoder,Q15,procedure,What are the steps for a head of family based address update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02,False
+4. Hybrid + cross-encoder,Q17,superseded,What is the last date for free Aadhaar document update on myAadhaar?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2023-12#01 SAMPLE-UIDAI-FREEDOC-2024-03#01,True
+4. Hybrid + cross-encoder,Q18,superseded,Is updating proof of identity and address in Aadhaar online still free?,0.0,1.0,0.25,False,SAMPLE-UIDAI-FREEDOC-2024-03#01 SAMPLE-UIDAI-FREEDOC-2023-12#01,True
+4. Hybrid + cross-encoder,Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2024-03#02 SAMPLE-UIDAI-FREEDOC-2023-12#02,True
+4. Hybrid + cross-encoder,Q21,superseded,What is the fee for a biometric update in Aadhaar?,0.0,1.0,0.5,False,SAMPLE-UIDAI-FEES-2020#01,True
+4. Hybrid + cross-encoder,Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.111,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False
+4. Hybrid + cross-encoder,Q24,table,How much does an Aadhaar PVC card cost?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+4. Hybrid + cross-encoder,Q26,procedure,Is the e-Aadhaar valid like the original letter?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#01,False
+4. Hybrid + cross-encoder,Q27,prose,Can I order an Aadhaar PVC card if my mobile number is not registered?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+4. Hybrid + cross-encoder,Q29,prose,Do I need any document to change my email in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-MOBILE-2023#01,False
+4. Hybrid + cross-encoder,Q30,procedure,How do I lock my Aadhaar biometrics?,1.0,1.0,1.0,False,SAMPLE-UIDAI-BIOLOCK-2021#01 SAMPLE-UIDAI-CHILD-2022#01,False
+4. Hybrid + cross-encoder,Q32,prose,At what ages must a child do a mandatory biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#02,False
+4. Hybrid + cross-encoder,Q33,prose,Are biometrics taken for Baal Aadhaar of a child below five?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#01,False
+4. Hybrid + cross-encoder,Q35,prose,Can the foreign spouse of an Indian citizen get OCI?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#01,False
+4. Hybrid + cross-encoder,Q36,prose,Do OCI cardholders need to register with the FRRO?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#02,False
+4. Hybrid + cross-encoder,Q38,superseded,Is OCI re-issue required when I renew my passport after the age of 50?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-REISSUE-2021#01 SAMPLE-MHA-OCI-REISSUE-2019#01,True
+4. Hybrid + cross-encoder,Q39,superseded,When must an OCI card be re-issued after getting a new passport?,0.0,1.0,0.5,False,SAMPLE-MHA-OCI-REISSUE-2021#02 SAMPLE-MHA-OCI-REISSUE-2019#01,True
+4. Hybrid + cross-encoder,Q41,procedure,What are the steps to update new passport details on my OCI registration?,1.0,1.0,1.0,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+4. Hybrid + cross-encoder,Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.5,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#02,False
+4. Hybrid + cross-encoder,Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.5,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False
+4. Hybrid + cross-encoder,Q45,table,What size should my photograph be for the OCI application?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01,False
+4. Hybrid + cross-encoder,Q47,procedure,I lost my OCI card. What are the steps to get a new one?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+4. Hybrid + cross-encoder,Q48,table,Which documents are needed to replace a damaged OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#02,False
+4. Hybrid + cross-encoder,Q50,prose,How do I update my address on my OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-PARTICULARS-2020#03 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+4. Hybrid + cross-encoder,Q51,ambiguous,How do I update my address?,0.0,1.0,0.333,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+4. Hybrid + cross-encoder,Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,
+4. Hybrid + cross-encoder,Q54,unanswerable,What is the tatkal fee for an Indian passport?,,,,True,,
+5. Hybrid + cross-encoder + recency (full),Q02,prose,Can I change my name in Aadhaar online or do I have to visit a centre?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#01,False
+5. Hybrid + cross-encoder + recency (full),Q03,prose,How many times can I change my name in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#03 SAMPLE-UIDAI-FAQ-DEMO-2024#02,False
+5. Hybrid + cross-encoder + recency (full),Q05,prose,How long does an Aadhaar update request take to process?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FAQ-DEMO-2024#04,False
+5. Hybrid + cross-encoder + recency (full),Q06,prose,How can I track the status of my Aadhaar update?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+5. Hybrid + cross-encoder + recency (full),Q08,table,Is a PAN card valid proof of identity for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#01,False
+5. Hybrid + cross-encoder + recency (full),Q09,table,Can I use my class 10 marksheet as proof of date of birth for Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-DOCLIST-2023#03,False
+5. Hybrid + cross-encoder + recency (full),Q11,procedure,What are the steps to update my Aadhaar address online with a proof of address?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#01,False
+5. Hybrid + cross-encoder + recency (full),Q12,prose,Why was my Aadhaar address update request rejected?,1.0,1.0,1.0,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+5. Hybrid + cross-encoder + recency (full),Q14,procedure,How many days does the head of family have to approve an Aadhaar address request?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02 SAMPLE-UIDAI-HOF-2024-01#01,False
+5. Hybrid + cross-encoder + recency (full),Q15,procedure,What are the steps for a head of family based address update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-HOF-2024-01#02,False
+5. Hybrid + cross-encoder + recency (full),Q17,superseded,What is the last date for free Aadhaar document update on myAadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2025-06#01,False
+5. Hybrid + cross-encoder + recency (full),Q18,superseded,Is updating proof of identity and address in Aadhaar online still free?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FREEDOC-2025-06#01,False
+5. Hybrid + cross-encoder + recency (full),Q20,prose,My Aadhaar was issued more than 10 years ago. Should I update my documents?,0.0,0.0,0.0,False,SAMPLE-UIDAI-CHILD-2022#01 SAMPLE-UIDAI-FREEDOC-2025-06#01,False
+5. Hybrid + cross-encoder + recency (full),Q21,superseded,What is the fee for a biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-FEES-2025#01,False
+5. Hybrid + cross-encoder + recency (full),Q23,superseded,What is the charge for changing my mobile number in Aadhaar?,0.0,0.0,0.125,False,SAMPLE-UIDAI-MOBILE-2023#02 SAMPLE-UIDAI-MOBILE-2023#01,False
+5. Hybrid + cross-encoder + recency (full),Q24,table,How much does an Aadhaar PVC card cost?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+5. Hybrid + cross-encoder + recency (full),Q26,procedure,Is the e-Aadhaar valid like the original letter?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#01,False
+5. Hybrid + cross-encoder + recency (full),Q27,prose,Can I order an Aadhaar PVC card if my mobile number is not registered?,1.0,1.0,1.0,False,SAMPLE-UIDAI-LOST-2022#02,False
+5. Hybrid + cross-encoder + recency (full),Q29,prose,Do I need any document to change my email in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-MOBILE-2023#01,False
+5. Hybrid + cross-encoder + recency (full),Q30,procedure,How do I lock my Aadhaar biometrics?,1.0,1.0,1.0,False,SAMPLE-UIDAI-BIOLOCK-2021#01 SAMPLE-UIDAI-CHILD-2022#01,False
+5. Hybrid + cross-encoder + recency (full),Q32,prose,At what ages must a child do a mandatory biometric update in Aadhaar?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#02,False
+5. Hybrid + cross-encoder + recency (full),Q33,prose,Are biometrics taken for Baal Aadhaar of a child below five?,1.0,1.0,1.0,False,SAMPLE-UIDAI-CHILD-2022#01,False
+5. Hybrid + cross-encoder + recency (full),Q35,prose,Can the foreign spouse of an Indian citizen get OCI?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#01,False
+5. Hybrid + cross-encoder + recency (full),Q36,prose,Do OCI cardholders need to register with the FRRO?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-FAQ-2019#02,False
+5. Hybrid + cross-encoder + recency (full),Q38,superseded,Is OCI re-issue required when I renew my passport after the age of 50?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-REISSUE-2021#01,False
+5. Hybrid + cross-encoder + recency (full),Q39,superseded,When must an OCI card be re-issued after getting a new passport?,1.0,1.0,1.0,False,SAMPLE-MHA-OCI-REISSUE-2021#02 SAMPLE-MHA-OCI-REISSUE-2021#01,False
+5. Hybrid + cross-encoder + recency (full),Q41,procedure,What are the steps to update new passport details on my OCI registration?,1.0,1.0,1.0,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+5. Hybrid + cross-encoder + recency (full),Q42,table,Which documents do I upload for an OCI passport update?,0.0,1.0,0.5,False,SAMPLE-OCI-PASSPORT-UPLOAD-2021#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#02,False
+5. Hybrid + cross-encoder + recency (full),Q44,table,How much does it cost to replace a lost OCI card abroad?,0.0,1.0,0.5,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-MHA-OCI-FEES-2020#01,False
+5. Hybrid + cross-encoder + recency (full),Q45,table,What size should my photograph be for the OCI application?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01,False
+5. Hybrid + cross-encoder + recency (full),Q47,procedure,I lost my OCI card. What are the steps to get a new one?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#01 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+5. Hybrid + cross-encoder + recency (full),Q48,table,Which documents are needed to replace a damaged OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-LOST-2020#02,False
+5. Hybrid + cross-encoder + recency (full),Q50,prose,How do I update my address on my OCI card?,1.0,1.0,1.0,False,SAMPLE-OCI-PARTICULARS-2020#03 SAMPLE-OCI-PASSPORT-UPLOAD-2021#01,False
+5. Hybrid + cross-encoder + recency (full),Q51,ambiguous,How do I update my address?,0.0,1.0,0.333,False,SAMPLE-UIDAI-ADDR-ONLINE-2023#02,False
+5. Hybrid + cross-encoder + recency (full),Q53,unanswerable,How do I apply for a new PAN card?,,,,False,SAMPLE-MHA-OCI-FEES-2020#01,
+5. Hybrid + cross-encoder + recency (full),Q54,unanswerable,What is the tatkal fee for an Indian passport?,,,,True,,

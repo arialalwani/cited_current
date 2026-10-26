@@ -1,0 +1,11 @@
+{
+  "corpus": "data/sample_corpus",
+  "questions": "data/eval/questions.json",
+  "n_dev": 18,
+  "n_test": 36,
+  "lambda": 0.0,
+  "generator": "extractive (no LLM)",
+  "embedding": "tfidf-lsa (fallback)",
+  "cross_encoder": "lexical cross-scorer (fallback)",
+  "runtime_s": 3.4
+}
